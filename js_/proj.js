@@ -1,4 +1,5 @@
-window.onload=function()
+window.onload=init;
+function init()
 {
 	document.getElementById("gallery").addEventListener("click",sendToGallery);
 	document.getElementById("description").addEventListener("click",sendToDescript);
