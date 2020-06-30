@@ -1,9 +1,9 @@
 window.onload=function()
 {
-	document.getElementById("home").addEventListener("click",sendToMain);
-	document.getElementById("description").addEventListener("click",sendToDescript);
-        document.getElementById("left").addEventListener('click',bef);
-        document.getElementById("right").addEventListener('click',af);
+	$("#home").addEventListener("click",sendToMain);
+	$("#description").addEventListener("click",sendToDescript);
+        $("#left").addEventListener('click',bef);
+        $("#right").addEventListener('click',af);
         setInterval(chImg,100);
 };
 function sendToMain()
@@ -18,7 +18,7 @@ function sendToDescript()
 var count_gl=1;
 function bef()
 {
-    $.getJSON('WebNetBeans/js_/mas.json',
+    $.getJSON('js_/mas.json',
     function(data)
     {
         var arr=data["gallery"];
@@ -29,7 +29,7 @@ function bef()
 }
 function af()
 {
-    $.getJSON('WebNetBeans/js_/mas.json',
+    $.getJSON('js_/mas.json',
     function(data)
     {
         var arr=data["gallery"];
