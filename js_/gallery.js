@@ -24,7 +24,6 @@ function bef()
         var arr=data["gallery"];
         count_gl-=1;
         if(count_gl<1){count_gl+=7;}
-        arr["number"]
     });
 }
 function af()
