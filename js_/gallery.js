@@ -1,9 +1,9 @@
 window.onload=function()
 {
-	$("#home").addEventListener("click",sendToMain);
-	$("#description").addEventListener("click",sendToDescript);
-        $("#left").addEventListener('click',bef);
-        $("#right").addEventListener('click',af);
+	document.getElementByID("home").addEventListener("click",sendToMain);
+	document.getElementByID("description").addEventListener("click",sendToDescript);
+        document.getElementByID("left").addEventListener('click',bef);
+        document.getElementByID("right").addEventListener('click',af);
         setInterval(chImg,100);
 };
 function sendToMain()
