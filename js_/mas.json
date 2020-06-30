@@ -1,0 +1,12 @@
+{
+	"gallery":
+	[
+		{"source":"img_1.jpg","number":1},
+		{"source":"img_2.jpg","number":2},
+		{"source":"img_3.jpg","number":3},
+		{"source":"img_4.jpg","number":4},
+		{"source":"img_5.jpg","number":5},
+		{"source":"img_6.jpg","number":6},
+		{"source":"img_7.jpg","number":7}
+	]
+}

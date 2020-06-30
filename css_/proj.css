@@ -1,0 +1,109 @@
+html
+{
+    height:100%;
+    background:url("../img_/back.jpg") no-repeat;
+    background-size: 100%;
+    padding:0px 10%;
+}
+body
+{
+    margin:0px;
+    display:block;
+    height:100%;
+}
+div#banner
+{
+    height:20%;
+}
+div#main
+{
+    margin:1% 0% 0%;
+    background: linear-gradient(to bottom, #ADD8E6, #00BFFF);
+    opacity:0.6;
+    padding:0px;
+    height:100%;
+    width:100%;
+}
+div#menu
+{
+    height:5%;
+    padding:3px;
+}
+ul#menu_ul
+{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+#menu_ul li
+{
+    display:inline-block;
+    width:10%;
+    background: linear-gradient(to bottom right, #006400, #808080);
+    border: 1px solid LimeGreen;
+    color:yellow;
+    text-align:center;
+    margin:0% 1%;
+    font-size:100%;
+}
+#menu_ul li:hover
+{
+    background:linear-gradient(to top left, #006400, #808080);	
+    color:white;
+}
+div#content
+{
+    margin:0px;
+    padding:2.5% 2.5% 0%;
+    height:75%;
+    width:95%;
+}
+p
+{
+    margin:0px;
+    padding:0px;
+    color:black;
+    font-size:24px;
+    font-weight:bold;
+}
+#left
+{
+    opacity:0.6;
+    display:inline-block;
+    width:10%;
+    background: black;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    height:100%;
+}
+#right
+{
+    opacity:0.6;
+    display:inline-block;
+    width:10%;
+    background: black;
+    height:100%;
+}
+#gal
+{
+    display:inline-block;   
+    height:100%;
+    width:70%;
+}
+#storage
+{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    height:90%;
+}
+#main_gal
+{
+    margin:1% 0% 0%;
+    background: linear-gradient(to bottom, #ADD8E6, #00BFFF);
+    padding:0px;
+    height:100%;
+    width:100%;
+}
