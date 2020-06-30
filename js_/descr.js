@@ -1,7 +1,7 @@
 window.onload=function()
 {
-	document.getElementByID("home").addEventListener("click",sendToMain);
-	document.getElementByID("gallery").addEventListener("click",sendToGallery);
+	document.getElementById("home").addEventListener("click",sendToMain);
+	document.getElementById("gallery").addEventListener("click",sendToGallery);
 }
 function sendToMain()
 {
