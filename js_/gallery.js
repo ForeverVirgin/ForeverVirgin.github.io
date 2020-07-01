@@ -32,14 +32,12 @@ function bef()
 {
         count_gl-=1;
         if(count_gl<0){count_gl+=7;}
-	console.log(count_gl);
 	chImg();
 }
 function af()
 {
 	count_gl+=1;
 	if(count_gl>6){count_gl-=7;}
-	console.log(count_gl);
 	chImg();
 }
 function chImg()
