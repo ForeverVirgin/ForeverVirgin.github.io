@@ -11,7 +11,7 @@ function init()
 	myGeoObject = new ymaps.GeoObject({
             geometry: {
                 type: "Point",
-                coordinates: [53.18176100,107.66246800]
+                coordinates: [51.871847, 104.820803]
             },
             properties: {
                 iconContent: 'Шаман-камень',
