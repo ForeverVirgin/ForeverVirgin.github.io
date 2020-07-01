@@ -3,6 +3,7 @@ function init()
 {
 	document.getElementById("gallery").addEventListener("click",sendToGallery);
 	document.getElementById("description").addEventListener("click",sendToDescript);
+	document.getElementById("list").addEventListener("click",sendToList);
 	var myMap = new ymaps.Map("content", {
             center: [53.27, 108.04],
             zoom: 6
@@ -120,6 +121,10 @@ function sendToGallery()
 function sendToDescript()
 {
 	location.href = "description.html";
+}
+function sendToDescript()
+{
+	location.href = "list.html";
 }
 
 
