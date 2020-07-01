@@ -5,7 +5,7 @@ function init()
 	document.getElementById("description").addEventListener("click",sendToDescript);
 	var myMap = new ymaps.Map("content", {
             center: [53.27, 108.04],
-            zoom: 7
+            zoom: 6
         });
 }
 function sendToGallery()
