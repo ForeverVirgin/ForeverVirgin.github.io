@@ -1,9 +1,11 @@
+var arr;
+
 window.onload=function()
 {
 	$.getJSON('js_/mas.json',
    	function(data)
     	{
-        	var arr=data["gallery"];
+        	arr=data["gallery"];
     	});
 	document.getElementById("home").addEventListener("click",sendToMain);
 	document.getElementById("description").addEventListener("click",sendToDescript);
