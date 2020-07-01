@@ -15,7 +15,7 @@ function sendToDescript()
 	location.href = "description.html";
 }
 
-var count_gl=1;
+var count_gl=0;
 function bef()
 {
     $.getJSON('js_/mas.json',
@@ -23,8 +23,9 @@ function bef()
     {
         var arr=data["gallery"];
         count_gl-=1;
-        if(count_gl<1){count_gl+=7;}
+        if(count_gl<0){count_gl+=7;}
 	console.log(count_gl);
+	chImg();
     });
 }
 function af()
@@ -34,12 +35,16 @@ function af()
     {
         var arr=data["gallery"];
 	count_gl+=1;
-	if(count_gl>7){count_gl-=7;}
+	if(count_gl>6){count_gl-=7;}
 	console.log(count_gl);
+	chImg();
     });
 }
 function chImg()
 {
-    $("#gal").css('background', 'url(img_/img_1.jpg) no-repeat');
+    var temp='url(img_/';
+    temp+=arr[count_gl]["source"];
+    temp+=') no-repeat';
+    $("#gal").css('background', temp);
     $("#gal").css('background-size', '100%');
 }
