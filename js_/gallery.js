@@ -36,5 +36,6 @@ function af()
 }
 function chImg()
 {
-    $("#gal").css('backgroundImage', 'background:url("../img_/back.jpg") no-repeat; background-size: 100%;');
+    $("#gal").css('background', 'url(img_/img_1.jpg) no-repeat');
+    $("#gal").css('background-size', '100%');
 }
