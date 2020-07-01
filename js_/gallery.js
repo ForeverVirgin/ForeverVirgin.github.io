@@ -9,6 +9,7 @@ window.onload=function()
     	});
 	document.getElementById("home").addEventListener("click",sendToMain);
 	document.getElementById("description").addEventListener("click",sendToDescript);
+	document.getElementById("list").addEventListener("click",sendToList);
         document.getElementById("left").addEventListener('click',bef);
         document.getElementById("right").addEventListener('click',af);
         setInterval(chImg,100);
