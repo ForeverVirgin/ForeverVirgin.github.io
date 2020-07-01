@@ -15,9 +15,11 @@ body
 div#banner
 {
     text-align:center;
-    vertical-align:middle;
-    color:YellowGreen;
     height:20%;
+}
+#banner p
+{
+    color:DarkGreen;
 }
 div#main
 {
