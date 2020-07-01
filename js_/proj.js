@@ -7,17 +7,7 @@ function init()
             center: [53.27, 108.04],
             zoom: 6
         });
-}
-function sendToGallery()
-{
-	location.href = "gallery.html";
-}
-function sendToDescript()
-{
-	location.href = "description.html";
-}
-
-myGeoObject = new ymaps.GeoObject({
+	myGeoObject = new ymaps.GeoObject({
             geometry: {
                 type: "Point",
                 coordinates: [53.27, 108.04]
@@ -28,4 +18,16 @@ myGeoObject = new ymaps.GeoObject({
         }, {
             preset: 'islands#blackStretchyIcon',
             draggable: false
-        })
+        });
+	 myMap.geoObjects.add(myGeoObject);
+}
+function sendToGallery()
+{
+	location.href = "gallery.html";
+}
+function sendToDescript()
+{
+	location.href = "description.html";
+}
+
+
