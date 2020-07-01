@@ -25,7 +25,7 @@ function init()
                 coordinates: [51.34324600,105.15746100]
             },
             properties: {
-                iconContent: 'Шаман-камень',
+                iconContent: 'Байкальский заповедник',
             }
         }, {
             preset: 'islands#blackStretchyIcon',
@@ -46,10 +46,10 @@ function init()
 	myGeoObject_4 = new ymaps.GeoObject({
             geometry: {
                 type: "Point",
-                coordinates: [53.15666700,107.38361100]
+                coordinates: [51.66872300,103.69923900]
             },
             properties: {
-                iconContent: 'Остров Ольхон',
+                iconContent: 'Хамар-Дабан',
             }
         }, {
             preset: 'islands#blackStretchyIcon',
@@ -79,13 +79,39 @@ function init()
             preset: 'islands#blackStretchyIcon',
             draggable: false
         }),	
+	myGeoObject_7 = new ymaps.GeoObject({
+            geometry: {
+                type: "Point",
+                coordinates: [51.27492200,104.35559500]
+            },
+            properties: {
+                iconContent: 'Мёртвое озеро',
+            }
+        }, {
+            preset: 'islands#blackStretchyIcon',
+            draggable: false
+        }),	
+	myGeoObject_8 = new ymaps.GeoObject({
+            geometry: {
+                type: "Point",
+                coordinates: [50.73873700,113.47232700]
+            },
+            properties: {
+                iconContent: 'Национальный парк «Алханай»',
+            }
+        }, {
+            preset: 'islands#blackStretchyIcon',
+            draggable: false
+        });
 	myMap.geoObjects
 	.add(myGeoObject)
 	.add(myGeoObject_2)
 	.add(myGeoObject_3)
 	.add(myGeoObject_4)
 	.add(myGeoObject_5)
-	.add(myGeoObject_6);
+	.add(myGeoObject_6)
+	.add(myGeoObject_7)
+	.add(myGeoObject_8);
 }
 function sendToGallery()
 {
