@@ -101,7 +101,19 @@ p
     text-align:center;
     height:90%;
 }
-#map
+a:link
 {
-    
+    color:indigo;
+    text-decoration:none;
+}
+a:visited
+{
+    color:indigo;
+    text-decoration:none;
+}
+a:hover
+{
+    color:indigo;
+    text-decoration:none;
+    background:yellow;
 }
