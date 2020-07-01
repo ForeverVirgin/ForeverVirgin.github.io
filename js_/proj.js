@@ -17,4 +17,15 @@ function sendToDescript()
 	location.href = "description.html";
 }
 
-
+myGeoObject = new ymaps.GeoObject({
+            geometry: {
+                type: "Point",
+                coordinates: [53.27, 108.04]
+            },
+            properties: {
+                iconContent: 'центр карты',
+            }
+        }, {
+            preset: 'islands#blackStretchyIcon',
+            draggable: false
+        })
