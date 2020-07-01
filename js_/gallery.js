@@ -21,6 +21,10 @@ function sendToDescript()
 {
 	location.href = "description.html";
 }
+function sendToList()
+{
+	location.href = "list.html";
+}
 
 var count_gl=0;
 function bef()
