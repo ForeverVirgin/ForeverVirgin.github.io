@@ -122,7 +122,7 @@ function sendToDescript()
 {
 	location.href = "description.html";
 }
-function sendToDescript()
+function sendToList()
 {
 	location.href = "list.html";
 }
