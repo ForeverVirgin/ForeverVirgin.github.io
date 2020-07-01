@@ -24,6 +24,7 @@ function bef()
         var arr=data["gallery"];
         count_gl-=1;
         if(count_gl<1){count_gl+=7;}
+	console.log(count_gl);
     });
 }
 function af()
@@ -32,6 +33,9 @@ function af()
     function(data)
     {
         var arr=data["gallery"];
+	count_gl+=1;
+	if(count_gl>7){count_gl-=7;}
+	console.log(count_gl);
     });
 }
 function chImg()
